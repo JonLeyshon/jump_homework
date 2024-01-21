@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <script src="https://cdn.jsdelivr.net/npm/joi-browser@13.4.0/dist/joi-browser.min.js"></script>
+    <script src="validation.js" defer></script>
+  </head>
+  <body>
+    <form action="" method="get" id="firstForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+        <p id="nameError"></p>
+      </div>
+      <div>
+        <label for="name">Email:</label>
+        <input type="text" name="email" id="email" />
+        <p id="emailError"></p>
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" />
+        <p id="ageError"></p>
+      </div>
+      <div></div>
+    </form>
+  </body>
+</html>
